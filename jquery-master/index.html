@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+    $("#show").click(function(){
+    $("p").show();
+    });
+    $("#toggle").click(function(){
+    $("p").toggle();
+ });
+  $("#blue").click(function(){
+   $("p").css('background-color',"blue");
+ });
+ $("#red").click(function(){
+   $("p").css('background-color',"red");
+ });
+
+});
+  
+</script>
+</head>
+<body>
+    
+<button id="hide">Hide</button>
+
+<button id="show">Show</button>
+<button id="toggle">Toggle</button>
+<p>I am Div</p>
+
+<button id="blue">Blue</button>
+<button id="red">Red</button>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+</html>
